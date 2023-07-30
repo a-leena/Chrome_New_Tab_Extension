@@ -1,0 +1,90 @@
+body {
+    background:url('images/doggie.jpg')  no-repeat center center fixed;
+    background-size:cover;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#google {
+    display:flex;
+    align-items:center;
+    border-radius:10px;
+    margin:5px;
+    padding:5px 5px 2.5px 5px;
+    float:right;
+    background:rgba(0, 1, 40, 0.8);
+}
+
+#apps_icon {
+    width:40px;
+    height:40px;
+    fill:rgba(255,255,255,.90);
+}
+
+#acc_icon {
+    width:35px;
+    height:35px;
+    border-radius:50%;
+}
+
+#gmail,#apps,#accounts {
+    text-decoration:none;
+    font-size:medium;
+    color:rgba(255,255,255,.87);
+    padding:0 10px;
+}
+
+#message {
+    position:absolute;
+    top:70px;
+    width:fit-content;
+    height:fit-content;
+    color:black;
+    background:rgba(255, 255, 255, 0.75);
+    padding:5px 20px;
+    margin:5px;
+    border-radius:10px;
+}
+
+h1 {
+    font-size:40px;
+}
+
+p {
+    font-size:x-large;
+}
+
+#common_apps {  
+    position:absolute;
+    top:300px;
+    display:flex;
+    align-items:center;
+    margin:5px;
+}
+
+#netflix_icon,#vtop_icon,#moodle_icon,#mdn_icon {
+    width:35px;
+    height:35px;
+    border-radius:50%;
+}
+
+#common_apps a {
+    text-decoration:none;
+}
+
+#common_apps p {
+    color:black;
+    font-size:small;
+    font-weight:bold;
+}
+
+#netflix,#vtop,#moodle,#mdn {
+    display:block;
+    align-items:center;
+    text-align:center;
+    padding:10px 10px 5px 10px;
+    margin:10px;
+}
+#netflix:hover,#vtop:hover,#moodle:hover,#mdn:hover {
+    background:rgba(255,255,255,0.75);
+    border-radius:5px;
+}
