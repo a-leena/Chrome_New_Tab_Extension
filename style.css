@@ -58,10 +58,13 @@ p {
     top:300px;
     display:flex;
     align-items:center;
-    margin:5px;
+    margin:5px 10px 5px 5px;
+    width:97.5%;
+    /* background-color: white; */
+    flex-wrap:wrap;
 }
 
-#netflix_icon,#vtop_icon,#moodle_icon,#mdn_icon {
+.icon {
     width:35px;
     height:35px;
     border-radius:50%;
@@ -77,14 +80,14 @@ p {
     font-weight:bold;
 }
 
-#netflix,#vtop,#moodle,#mdn {
+.app_div {
     display:block;
     align-items:center;
     text-align:center;
     padding:10px 10px 5px 10px;
     margin:10px;
 }
-#netflix:hover,#vtop:hover,#moodle:hover,#mdn:hover {
+.app_div:hover {
     background:rgba(255,255,255,0.75);
     border-radius:5px;
 }
