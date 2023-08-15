@@ -26,3 +26,19 @@ function display_time() {
 }
 
 display_time();
+
+
+function change() {
+    console.log("running");
+    if (document.querySelector("html").classList.toggle("lambBG")==true) {
+        document.querySelector("html").classList.add("lambBG");
+    }
+    else {
+        document.querySelector("html").classList.remove("lambBG");
+    }
+}
+
+
+document.querySelector("button").addEventListener('click',(change));
+
+

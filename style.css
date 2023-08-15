@@ -1,7 +1,27 @@
-body {
+html {
     background:url('images/doggie.jpg')  no-repeat center center fixed;
     background-size:cover;
+}
+
+.lambBG {
+    background:url('images/lil_lamb.jpg') no-repeat center center fixed;
+    background-size:cover;
+}
+
+body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    font-size:medium;
+    background-color:black;
+    color:cyan;
+    font-weight: bold;
+    position:absolute;
+    border-radius:10px;
+    bottom:10px;
+    right:10px;
+    padding:5px;
 }
 
 #google {
@@ -53,7 +73,7 @@ p {
     font-size:x-large;
 }
 
-#common_apps {  
+#shortcuts {  
     position:absolute;
     top:300px;
     display:flex;
@@ -67,27 +87,27 @@ p {
 .icon {
     width:35px;
     height:35px;
-    border-radius:50%;
+    /* border-radius:50%; */
 }
 
-#common_apps a {
+#shortcuts a {
     text-decoration:none;
 }
 
-#common_apps p {
+#shortcuts p {
     color:black;
     font-size:small;
     font-weight:bold;
 }
 
-.app_div {
+.shortcut_div {
     display:block;
     align-items:center;
     text-align:center;
     padding:10px 10px 5px 10px;
     margin:10px;
 }
-.app_div:hover {
+.shortcut_div:hover {
     background:rgba(255,255,255,0.75);
     border-radius:5px;
 }
